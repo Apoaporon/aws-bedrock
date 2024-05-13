@@ -2,3 +2,4 @@
 /.venv
 .env
 /knowlege_file/*
+/image/*
