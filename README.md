@@ -62,4 +62,14 @@
 
 - [画像内の表を解析するための手法紹介](https://note.com/qunasys/n/nf9ee9a4e5d60)
 
-- 
+- [RAGのためになるお話し](https://speakerdeck.com/yamahiro/shi-li-deshao-jie-sururagdao-ru-shi-nozhi-jian-tojing-du-xiang-shang-nokan-suo)
+
+
+## ナレッジベース作成時の注意点
+- S3内保存データの名前はローマ字表記である必要あり。日本語がファイル名に含まれている場合は、エラーになります。
+
+## PyMuPDFを入れる時の注意点
+- PyMuPDFを入れると包括的にfitzも入ってくるので、fitzを入れる必要はない
+    - モジュールインポート時はfitzでするが、こいつをあらためて入れる必要はない
+    - 謝って入れてしまうと、依存関係がおかしくなりエラーが出てしまうので注意
+    - fitzをuninstallして、PyMuPDFを再インストール、pip install --upgrade --force-reinstall pymupdf
