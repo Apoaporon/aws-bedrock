@@ -3,3 +3,5 @@
 .env
 /knowlege_file/*
 /image/*
+.create_text
+/create_text
