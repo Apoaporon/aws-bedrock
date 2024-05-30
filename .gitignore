@@ -5,3 +5,7 @@
 /image/*
 .create_text
 /create_text
+/answer_folder
+.answer_folder
+/create_csv
+.create_csv
