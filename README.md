@@ -73,3 +73,11 @@
     - モジュールインポート時はfitzでするが、こいつをあらためて入れる必要はない
     - 謝って入れてしまうと、依存関係がおかしくなりエラーが出てしまうので注意
     - fitzをuninstallして、PyMuPDFを再インストール、pip install --upgrade --force-reinstall pymupdf
+
+### 比較資料
+- [有価証券報告書pdf](https://docs.google.com/spreadsheets/d/1uPaf49osIF1VZu-RVT-YV_y7t-SlgABQ/edit?usp=sharing&ouid=106866464210354858649&rtpof=true&sd=true)
+    - pdfから何かしらの情報を得たい場合ならナレッジとしての投入価値あり？
+    - チャンク分割をローカルでやる手間がかかる上にあまり実りがない、デフォルトのチャンク分割もページが連続していたら、切れてしまう可能性大 = 情報が拾えない
+- [AWS_FAQ](https://docs.google.com/spreadsheets/d/1gmESZDIYlGiWREJj3CBXsjE3l0f-xujLrBavcYso_yg/edit?usp=sharing)
+    - csvは手元で分割した方がナレッジが一位に定まって良い
+    - デフォルトチャンキングだとcsv形式が崩れる上に、ナレッジを広く取りすぎて最終解答にブレが生じてそう
